@@ -87,10 +87,19 @@
 </body>
   <div class="hero-image">
     <a href="index.html" class="hero-image"><img src="assets/img/64mL.gif" alt="" hero-image=""></a>
-    <div class="hero-container" data-aos="zoom-in" data-aos-delay="100">
-      <h1 class="mb-4 pb-0">Nostalgia <br><span> Retro Future Disco</h1>
+    <div class="hero-container" data-aos="zoom-in" data-aos-delay="100"
+         /* Place text in the middle of the image */
+.hero-text { <h1 class="mb-4 pb-0">Nostalgia <br><span> Retro Future Disco</h1>
       <p class="mb-4 pb-0">30 Iunie-02 Iulie, F.R. De Tir Sportiv </p>
       <a href="https://www.youtube.com/watch?v=mRIp2c0gUXE" class="glightbox play-btn mb-4"></a>
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+     
       <a href="#about" class="about-btn scrollto">Despre eveniment</a>
     </div>
   </section><!-- End Hero Section -->
